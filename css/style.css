@@ -1,0 +1,37 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	border-top:1px solid green;
+}
+
+li:last-of-type {
+	
+	border-bottom:5px dotted blue;
+}
+
+li:nth-child(3) a , li:nth-child(5) a {
+
+	color: red;
+}
+
+li:nth-child(5) a:hover {
+
+	color: grey;
+}
+
+li:nth-child(even) {
+
+	color: green;
+
+}
+
+li:nth-child(3) {
+
+	background-color: lightblue;
+}
+
+li:nth-child(1) {
+
+	border-top: 1px solid green;
+}
